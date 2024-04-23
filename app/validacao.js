@@ -13,7 +13,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
 }
 
 function chuteForInvalido(numero) {
-    if(numero == numeroSecreto || numero == "Estrelinha" || numero == "estrelinha" || numero == "estrelinha."){
+    if(numero == numeroSecreto || numero == "Papito" || numero == "papito" || numero == "papito."){
         return true 
     } else {
         return false
