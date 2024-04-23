@@ -8,7 +8,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
 
     
 
-    if (numero === numeroSecreto || numero === "Estrelinha" || numero === "estrelinha" || numero === "estrelinha.") {
+    if (numero == numeroSecreto || numero == "Estrelinha" || numero == "estrelinha" || numero == "estrelinha.") {
         console.log(numeroSecreto)
         document.body.innerHTML = `
             <h2>Você acertou!</h2>
